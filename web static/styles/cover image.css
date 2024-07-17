@@ -1,0 +1,10 @@
+.cover-image {
+    background: url('cover.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
