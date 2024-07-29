@@ -6,27 +6,38 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body style="margin: 0px; padding: 0px;">
-        <header style="background-color: #FF0000; height: 70px; width: 100%;">
-          <nav>
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Full stack developer portifolio</a>
+              <button class="navbar-toggler" type="button" data toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expand="navbarNav">
+                  <span> class="navbar-toggler-icon</span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav #l-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class ="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
             </ul>
           </nav>
         </header>
       
-        <section id="hero">
-          <div class="hero-content">
-            <h1> Patricia Kemirembe</h1>
-            <h2>Full stack developer</h2>
-            <a href="#contact" class="btn">Hire Me</a>
+        <section id="hero" class="jumbotron text-center">
+          <div class="container">
+            <h1 class="display-4"> Patricia Kemirembe</h1>
+            <h2 class="lead">Full stack developer</h2>
+            <a href="#contact" class="btn btn-primary btn-lg">Hire Me</a>
           </div>
         </section>
       
-      <section id="About">
+      <section id="About" class="py-5">
         <div class="container">
-          <h2>About Me</h2>
+          <h2 class="mb-4">About Me</h2>
           <p>
             My name is Patricia Kemirembe a passionate full stack developer with experience in building web applications. I have a strong foundation in both backend and frontend technologies #C, python, HTML and CSS, Javascript, databases like MySQL and MongoDB.
           </p>
@@ -36,34 +47,44 @@
         </div>
       </section>
 
-      <section id="projects">
+      <section id="projects" class="bg-light py-5">
         <div class="container">
-          <h2>Projects</h2>
-          <div class="project">
-            <h3>Portifolio</h3>
-            <p>A portfolio project is a practical demonstration of your skills, experiences, and accomplishments in a particular field, often created by professionals, students, or job seekers to showcase their work to potential employers, clients, or collaborators. </p>
-            <a href="#" class="btn">View Project</a>
+          <h2 class="mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                                <h3 class="card-title">Portifolio</h3>
+                                <p class="card-text">A portfolio project is a practical demonstration of your skills, experiences, and accomplishments in a particular field, often created by professionals, students, or job seekers to showcase their work to potential employers, clients, or collaborators. </p>
+                                <a href="#" class="btn">View Project</a>
+                            </div>
+                    </div>
+                </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card">
+                  <div class="card-body">
+                      <h3 class="card-title">Project 2</h3>
+                      <p class="card-text">A brief description</p>
+                      <a href="#" class="btn">View Project</a>
+                  </div>
+              </div>
           </div>
-          <div class="project">
-            <h3>Project 2</h3>
-            <p>A brief description</p>
-            <a href="#" class="btn">View Project</a>
-          </div>
+            </div>
         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" class="py-5">
         <div class="container">
           <h2>Contact Me</h2>
-          <p>If you have any questions or would like to discuss a potential project, feel free to get in touch with me. I am availbale for more information. I am availbale for any freelance work or in person.</p>
-          <a href="mailto: Kemirembe2patricia@gmail.com" class="btn">Email me</a>
+          <p>If you have any questions or would like to discuss a potential project, feel free to get in touch with me. I am availbale for any freelance work or in person.</p>
+          <a href="mailto: Kemirembe2patricia@gmail.com" class="btn btn-primary">Email me</a>
         </div>
       </section>
 
-      <footer>
+      <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 PatriciaKemirembe All rights reserved</p>
       </footer>
 
-      <script>src="app.js"</script>
+      <script src="https://code.jquery.com/jquery-3.6.0 min.js"></script>
     </body>
 </html>
